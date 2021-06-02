@@ -1,0 +1,7 @@
+Datum, Vreme: 06/02/2021 13:40:57 Entitet:	7 Vrednost:	43
+Datum, Vreme: 06/02/2021 13:41:00 Entitet:	3 Vrednost:	21
+Datum, Vreme: 06/02/2021 13:41:03 Entitet:	2 Vrednost:	25
+Datum, Vreme: 06/02/2021 13:41:07 Entitet:	1 Vrednost:	96
+Datum, Vreme: 06/02/2021 13:41:10 Entitet:	5 Vrednost:	82
+Datum, Vreme: 06/02/2021 13:41:13 Entitet:	2 Vrednost:	10
+Datum, Vreme: 06/02/2021 13:41:16 Entitet:	1 Vrednost:	73

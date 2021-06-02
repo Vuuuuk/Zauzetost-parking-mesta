@@ -1,0 +1,55 @@
+﻿<Window x:Class="NetworkService.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NetworkService"
+        xmlns:views="clr-namespace:NetworkService.Views"
+        xmlns:viewModel="clr-namespace:NetworkService.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800" ResizeMode="NoResize">
+    <Window.DataContext>
+        <viewModel:MainWindowViewModel/>
+    </Window.DataContext>
+    <Window.InputBindings>
+        <KeyBinding Key="F1" Command="{Binding NavCommand}" CommandParameter="Parking Data"/>
+        <KeyBinding Key="F2" Command="{Binding NavCommand}" CommandParameter="Display Data"/>
+        <KeyBinding Key="F3" Command="{Binding NavCommand}" CommandParameter="Graph Data"/>
+        <KeyBinding Key="F4" Command="{Binding NavCommand}" CommandParameter="Help"/>
+    </Window.InputBindings>
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type viewModel:ParkingViewModel}">
+            <views:ParkingView ToolTip="INFO -> Insert/Remove/Update parking entities on this view using the appropriate Buttons/TextBoxs!"/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:DisplayViewModel}">
+            <views:DisplayView ToolTip="INFO -> Drag/Drop/Remove parking entities on this view! Drag parking objects from the list on the right using your mouse pointer!"/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:GraphViewModel}">
+            <views:GraphView ToolTip="INFO -> Visualise parking objects values on this view!"/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:HelpViewModel}">
+            <views:HelpView/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0" Margin="5">
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Parking Data" Command="{Binding NavCommand}"
+                          CommandParameter="Parking Data"/>
+                <MenuItem Header="Display Data" Command="{Binding NavCommand}"
+                          CommandParameter="Display Data"/>
+                <MenuItem Header="Graph Data" Command="{Binding NavCommand}"
+                          CommandParameter="Graph Data"/>
+                <MenuItem Header="Help" Command="{Binding NavCommand}"
+                          CommandParameter="Help"/>
+            </Menu>
+        </DockPanel>
+        <Grid Grid.Row="1">
+        <ContentControl Content="{Binding CurrentViewModel}" Grid.ColumnSpan="3"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="NetworkService.Views.ParkingView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NetworkService.Views"
+             xmlns:podaci="clr-namespace:NetworkService.Model"
+             xmlns:ViewModel="clr-namespace:NetworkService.ViewModel"
+             xmlns:vml="clr-namespace:NetworkService.VML"
+             vml:ViewModelLocator.AutoHookedUpViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Label Content="Parking Entities" FontSize="30" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="10,0"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Height="63">
+                <StackPanel Orientation="Vertical"  VerticalAlignment="Center">
+                    <RadioButton Height="20" x:Name="rbName" GroupName="gnSearch" VerticalContentAlignment="Center" ToolTip="INFO -> Search by name!" IsChecked="{Binding IsNameChecked, Mode=TwoWay}"/>
+                    <RadioButton  Height="20" x:Name="rbType" GroupName="gnSearch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" ToolTip="INFO -> Search by type!" IsChecked="{Binding IsTypeChecked, Mode=TwoWay}"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Label Content="Name" Height="27" FontSize="12"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                    <Label Content="Type" Height="27" FontSize="12"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                </StackPanel>
+                <TextBox x:Name="tbName" Width="180" Height="35" Margin="13px" ToolTip="INFO -> Insert search parametar!" Text="{Binding SearchText}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18"/>
+                <Button x:Name="btnSearch" Height="35"  Content="Search" FontSize="20" Width="100" ToolTip="INFO -> Search all avaiable information!" Command="{Binding SearchCommand}"/>
+            </StackPanel>
+            <DataGrid x:Name="dgParking" AutoGenerateColumns="False" CanUserAddRows="False" Height="210" Margin="10,0"
+            ItemsSource="{Binding Path=ParkingsSearched, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding SelectedParking}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Width="*" Binding="{Binding Id}"/>
+                    <DataGridTextColumn Header="Name" Width="*" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="Type" Width="*" Binding="{Binding TypeP.Name}"/>
+                    <DataGridTextColumn Header="Value" Width="*" Binding="{Binding Value, UpdateSourceTrigger=PropertyChanged}" />
+                </DataGrid.Columns>
+            </DataGrid>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,10,0,10" Width="780" >
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Id:" FontSize="20" Width="80" Height="25" TextAlignment="Left" Margin="3"/>
+                    <TextBlock Text="Name:" FontSize="20" Width="80" Height="25" TextAlignment="Left" />
+                    <TextBlock Text="Type:" FontSize="20" Width="80" Height="25" TextAlignment="Left" Margin="10"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBox Text="{Binding CurrentParking.Id}" Width="120" Height="25" ToolTip="INFO -> ID must be unique!"/>
+                    <TextBox Text="{Binding CurrentParking.Name}" Width="120" Height="25" Margin="10" ToolTip="INFO -> Name can not be empty!"/>
+                    <ComboBox x:Name="cbType" Text="Select Type" Width="120" Height="25" ItemsSource="{Binding ParkingTypes, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding  SelectedTypeParking}" ToolTip="INFO -> Type must be selected!"/>
+                </StackPanel>
+                <Image x:Name="imgSource" Width="60" Height="60" Margin="17" Source="{Binding Path, UpdateSourceTrigger=PropertyChanged}"/>
+                <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="{Binding CurrentParking.ValidationErrors[Id]}" Width="120" Height="25" Foreground="red"/>
+                    <TextBlock Text="{Binding CurrentParking.ValidationErrors[Name]}" Width="120" Height="25" Margin="10" Foreground="red"/>
+                    <TextBlock Text="" Width="120" Height="25"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Width="296" Height="85" >
+                    <Button x:Name="btnAdd" Content="Add" Width="80" Height="30" HorizontalAlignment="Right" Command="{Binding AddCommand}" ToolTip="INFO -> Insert information!" />
+                    <Button x:Name="btnDelete" Content="Delete" Width="80" Height="30" Margin="0,25,0,0" HorizontalAlignment="Right" Command="{Binding DeleteCommand}" ToolTip="INFO -> Remove information!"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,87 @@
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.cache
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CoreCompileInputs.cache
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CopyComplete
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\Views\DisplayView.g.cs
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\Views\GraphView.g.cs
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\Views\ParkingView.g.cs
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\Views\DisplayView.baml
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\Views\GraphView.baml
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\Views\ParkingView.baml
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\Views\HelpView.g.cs
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\Views\HelpView.baml
+C:\Users\Vuk\Desktop\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csprojAssemblyReference.cache
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csprojAssemblyReference.cache
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\Views\DisplayView.g.cs
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\Views\GraphView.g.cs
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\Views\HelpView.g.cs
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\Views\ParkingView.g.cs
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\Views\DisplayView.baml
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\Views\GraphView.baml
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\Views\HelpView.baml
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\Views\ParkingView.baml
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.cache
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CoreCompileInputs.cache
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CopyComplete
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\Vuk\Desktop\HCI\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.dll
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.xml
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csprojAssemblyReference.cache
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\Views\DisplayView.g.cs
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\Views\GraphView.g.cs
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\Views\HelpView.g.cs
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\Views\ParkingView.g.cs
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\App.g.cs
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\Views\DisplayView.baml
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\Views\GraphView.baml
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\Views\HelpView.baml
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\Views\ParkingView.baml
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.cache
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CoreCompileInputs.cache
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CopyComplete
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+D:\FTN\COVID-19\III\I semestar\HCI\Vezbe\22.12.2020 -V9 - PZ2\PZ2\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
